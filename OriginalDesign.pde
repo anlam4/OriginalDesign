@@ -26,13 +26,7 @@ void goblet() {
   fill(250,235,10);
   stroke(255,235,10);
   rect(250,200,100,65,1,1,20,20);
-  strokeWeight(1);
-  beginShape();
-  vertex(280,264);
-  quadraticVertex(286,320,270,350);
-  vertex(334,350);
-  quadraticVertex(315,330,318,264);
-  endShape();
+  
 }
 void blueFlames() {
   fill(0,234,234);
